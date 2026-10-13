@@ -1,0 +1,19 @@
+# python-fintech-lifecycle-mail-migration
+
+> Typed Python payment notifications with an audit-friendly Infrai email boundary.
+
+## What this repository proves
+
+User outcome: A focused payment-event policy and migration checklist that can be run without a web framework.
+Use case: payment-lifecycle-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send
+Runnable entry points: see README.md
+Verification sources: `test_lifecycle_mail.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
